@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -46,7 +45,7 @@ const Index = () => {
             Tatjana Rozalija Ovčar
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl">
-            Stvarateljica čarobnih dječjih priča i profesionalna knjižničarka
+            Stvarateljica dječjih priča i knjižničarka
           </p>
         </div>
       </section>
@@ -134,11 +133,10 @@ const Index = () => {
           <Card className="book-card">
             <div className="flex items-center gap-4 mb-4">
               <Library className="h-8 w-8 text-pastel-purple" />
-              <h3 className="font-playfair text-xl">Profesionalna knjižničarka</h3>
+              <h3 className="font-playfair text-xl">Knjižničarka</h3>
             </div>
             <p className="text-gray-600">
-              Kao knjižničarka, posvećena sam promicanju dječje književnosti i čitanja. 
-              Redovito dijelim preporuke knjiga za djecu i organiziram književne aktivnosti.
+              Kao knjižničarka, posvećena je promicanju dječje književnosti i čitanja te organizira knjižnične aktivnosti za djecu.
             </p>
           </Card>
         </div>
