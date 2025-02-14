@@ -7,7 +7,7 @@ const books = [
   {
     title: "Tinova pustolovina na tavanu",
     url: "https://bit.ly/40Ycdd8",
-    coverImage: "/lovable-uploads/221d788f-0a6e-4483-8ae0-dfd150c35ef0.png"
+    coverImage: "/lovable-uploads/b0b0746a-9628-4f1f-894a-f742e10e8461.png"
   },
   { title: "Hoki", url: "#" },
   { title: "Kraljevske suze", url: "#" },
