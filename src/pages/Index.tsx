@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -98,15 +97,21 @@ const Index = () => {
       {/* Looking for Illustrators */}
       <section className="page-section bg-white/50" style={{ "--section-delay": "3" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">Traže ilustratora</h2>
+          <h2 className="section-title">Priče traže ilustratora</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-2">Vilinski grad</h3>
-              <p className="text-gray-600">Priča traži svog ilustratora</p>
+              <p className="text-gray-600">Priča traži svog ilustratora - tekst priče dostupan je na upit putem maila.</p>
             </Card>
             <Card className="book-card">
-              <h3 className="font-playfair text-xl mb-2">4 Mijine priče</h3>
-              <p className="text-gray-600">Priča traži svog ilustratora</p>
+              <h3 className="font-playfair text-xl mb-2">Mijine priče</h3>
+              <p className="text-gray-600 mb-2">Priča traži svog ilustratora - tekstovi priča dostupni su na upit putem maila.</p>
+              <ul className="text-gray-600 list-disc list-inside ml-2">
+                <li>Morska zvijezda</li>
+                <li>Galebovo pero</li>
+                <li>U starom gradu</li>
+                <li>Kamo vode racvjetane stepenice</li>
+              </ul>
             </Card>
           </div>
         </div>
