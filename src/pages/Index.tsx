@@ -171,7 +171,7 @@ const Index = () => {
             </div>
             <div className="text-gray-600 space-y-4">
               <p>
-                Rođena je 1967. godine u Zagrebu gdje je diplomirala komparativnu književnost, povijest umjetnosti i bibliotekarstva. Od 1999. zaposlena je u Knjižnicama grada Zagreba.
+                Rođena je 1967. godine u Zagrebu gdje je diplomirala komparativnu književnost, povijest umjetnosti i bibliotekarstvo. Od 1999. zaposlena je u Knjižnicama grada Zagreba.
               </p>
               <p>
                 Kao knjižničarka, posvećena je promicanju dječje književnosti i čitanja te organizira knjižnične aktivnosti za djecu.
