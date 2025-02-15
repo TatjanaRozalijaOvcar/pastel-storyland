@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -160,18 +159,26 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About */}
+      {/* About Author */}
       <section className="page-section" style={{ "--section-delay": "6" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">O meni</h2>
+          <h2 className="section-title">O autorici</h2>
           <Card className="book-card">
             <div className="flex items-center gap-4 mb-4">
               <Library className="h-8 w-8 text-pastel-purple" />
-              <h3 className="font-playfair text-xl">Knjižničarka</h3>
+              <h3 className="font-playfair text-xl">Biografija</h3>
             </div>
-            <p className="text-gray-600">
-              Kao knjižničarka, posvećena je promicanju dječje književnosti i čitanja te organizira knjižnične aktivnosti za djecu.
-            </p>
+            <div className="text-gray-600 space-y-4">
+              <p>
+                Rođena je 1967. godine u Zagrebu gdje je diplomirala komparativnu književnost, povijest umjetnosti i bibliotekarstva. Od 1999. zaposlena je u Knjižnicama grada Zagreba.
+              </p>
+              <p>
+                Kao knjižničarka, posvećena je promicanju dječje književnosti i čitanja te organizira knjižnične aktivnosti za djecu. Majka je dvojici odraslih sinova, a odnedavno i svekrva i baka.
+              </p>
+              <p>
+                U slobodno vrijeme piše priče za slikovnice i ilustrirane knjige.
+              </p>
+            </div>
           </Card>
         </div>
       </section>
