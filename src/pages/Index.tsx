@@ -77,12 +77,17 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Electronic Stories */}
+      {/* Story Looking for Illustrator */}
       <section className="page-section" style={{ "--section-delay": "2" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
           <h2 className="section-title">Priča traži svog ilustratora i izdavača</h2>
           <Card className="book-card">
             <h3 className="font-playfair text-2xl mb-4">Muki</h3>
+            <div className="text-gray-600 mb-4 prose prose-gray max-w-none">
+              <p>Malena pahuljasta loptica otkotrljala se niz laganu padinu sve dolje do potoka. Bio je to najmlađi stanovnik dvorišta. Mekana duga dlaka, vragolaste oči i znatiželjna narav krasile su tog umiljatog, svima dragog mačića.</p>
+              <p>Od kada je prije nepuna dva mjeseca došao na svijet, Muki je postao pravi mali istraživač. Sada je izgleda krenuo u novu avanturu. Evo ga gdje podignutog repića i raširenih očiju promatra potok. Zapravo, njegovu pažnju privuklo je klokotanje i mjehurići zraka koji su se stvarali oko velikog kamena podno malenog vodenog slapa.</p>
+              <p>Nekoliko je trenutaka netremice osluškivao žuborenje vode, a onda se već u sljedećem našao ispod velikog hrasta osluškujući i promatrajući ritmične udarce žuninog žutog kljuna o drvo. Na šumskom je tlu zašuštalo jesensko lišće i Muki je već poskočio gurajući njuškicu prema jednom listu koji je odlučio otputovati. Polako, korak po korak, list je zaista klizio. No kada je maćić potom naglo odskočio mijaknuvši, ispod lista se ukazao jež...</p>
+            </div>
             <Button className="w-full">
               <BookOpen className="mr-2 h-4 w-4" />
               Čitaj priču
