@@ -81,9 +81,9 @@ const Index = () => {
       {/* Story Looking for Illustrator */}
       <section className="page-section" style={{ "--section-delay": "2" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">Priča traži svog ilustratora i izdavača</h2>
+          <h2 className="section-title">Priča traži svojeg čitača, urednika, ilustratora i izdavača</h2>
           <Card className="book-card">
-            <h3 className="font-playfair text-2xl mb-4">Muki</h3>
+            <h3 className="font-playfair text-2xl mb-4">Mukijeva uspavanka</h3>
             <img 
               src="/lovable-uploads/dc299811-ad5a-4eb5-871d-6158b88eca55.png"
               alt="Ilustracija Mukija"
