@@ -80,12 +80,9 @@ const Index = () => {
       {/* Electronic Stories */}
       <section className="page-section" style={{ "--section-delay": "2" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">Elektronske slikovnice</h2>
+          <h2 className="section-title">Priča traži svog ilustratora i izdavača</h2>
           <Card className="book-card">
             <h3 className="font-playfair text-2xl mb-4">Muki</h3>
-            <p className="text-gray-600 mb-4">
-              Otkrijte Mukijevu priču u našoj posebnoj elektronskoj slikovnici
-            </p>
             <Button className="w-full">
               <BookOpen className="mr-2 h-4 w-4" />
               Čitaj priču
@@ -94,18 +91,18 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Looking for Illustrators */}
+      {/* More Stories */}
       <section className="page-section bg-white/50" style={{ "--section-delay": "3" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">Priče traže ilustratora</h2>
+          <h2 className="section-title">Još priča</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-2">Vilinski grad</h3>
-              <p className="text-gray-600">Priča traži svog ilustratora - tekst priče dostupan je na upit putem maila.</p>
+              <p className="text-gray-600">Tekst priče dostupan je na upit putem maila.</p>
             </Card>
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-2">Mijine priče</h3>
-              <p className="text-gray-600 mb-2">Priča traži svog ilustratora - tekstovi priča dostupni su na upit putem maila.</p>
+              <p className="text-gray-600 mb-2">Tekstovi priča dostupni su na upit putem maila.</p>
               <ul className="text-gray-600 list-disc list-inside ml-2">
                 <li>Morska zvijezda</li>
                 <li>Galebovo pero</li>
@@ -176,13 +173,10 @@ const Index = () => {
             </div>
             <div className="text-gray-600 space-y-4">
               <p>
-                Rođena je 1967. godine u Zagrebu gdje je diplomirala komparativnu književnost, povijest umjetnosti i bibliotekarstvo. Od 1999. zaposlena je u Knjižnicama grada Zagreba.
+                Tatjana Rozalija Ovčar rođena je 1967. godine u Zagrebu gdje je diplomirala komparativnu književnost, povijest umjetnosti i bibliotekarstvo. Od 1999. zaposlena je u Knjižnicama grada Zagreba.
               </p>
               <p>
-                Kao knjižničarka, posvećena je promicanju dječje književnosti i čitanja te organizira knjižnične aktivnosti za djecu.
-              </p>
-              <p>
-                U slobodno vrijeme piše priče za slikovnice i ilustrirane knjige.
+                Kao knjižničarka, posvećena je promicanju dječje književnosti i čitanja. U slobodno vrijeme piše priče za slikovnice i ilustrirane knjige.
               </p>
             </div>
           </Card>
