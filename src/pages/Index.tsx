@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -89,6 +88,20 @@ const Index = () => {
               alt="Ilustracija Mukija"
               className="w-full h-auto max-h-96 object-contain mb-6 bg-gray-50 rounded-lg"
             />
+            <div className="prose prose-gray max-w-none mb-6 text-gray-600">
+              <p>Malena pahuljasta loptica otkotrljala se niz laganu padinu sve dolje do potoka. Bio je to najmlađi stanovnik dvorišta. Mekana duga dlaka, vragolaste oči i znatiželjna narav krasile su tog umiljatog, svima dragog mačića.</p>
+              <p>Od kada je prije nepuna dva mjeseca došao na svijet, Muki je postao pravi mali istraživač. Sada je, činise krenuo u novu pustolovinu. Podignutog repića i raširenih očiju promatra potok. Njegovu je pažnju privuklo klokotanje i mjehurići zraka koji su se stvarali oko velikog kamena podno malenog vodenog slapa.</p>
+              <p>Nekoliko je trenutaka netremice osluškivao žuborenje vode i već se u sljedećem našao ispod velikog hrasta osluškujući i promatrajući ritmične udarce žuninog žutog kljuna o drvo. Na šumskom je tlu zašuštalo jesensko lišće i Muki je već poskočio gurajući njuškicu prema jednom listu koji je odlučio otputovati. Liste je polako klizio i kada je maćić naglo odskočio mijaknuvši, ispod lista se ukazao jež...</p>
+              <p className="whitespace-pre-line">
+                {`Život u dvorištu i obližnjem šumarku Mukiju je iz minute u minutu donosio uzbuđenja. Cijeli je dan znao provesti u proučavanju, igri i skakutanju. A navečer, kada je bilo vrijeme za ulazak u kuću, smjestio bi se na prozorskoj dasci i još dugo promatrao obrise stabala u noći i osluškivao zvukove dvorišta i šume koji su dopirali iz mraka.
+
+Sve u svemu, bio je to jedan vrlo znatiželjan mačić. Baš kao i Doni koji se mačićevom dolasku na svijet silno obradovao. Točnije rečeno, on je tom događaju osobno prisustvovao i sa oduševljenjem još dugo nakon toga prepričavao tijek rođenja svojeg kućnog mezimca. Od tada je prošlo skoro cijelo godišnje doba.
+
+Sada je Muki ležao na prozorskoj dasci, a Fran u krevetu. Dječak je razmišljao o želji koja je još uvijek bila samo u njegovim mislima. Doni je večeras pokušao napisati pismo, ali ga je, kao i obično kada bi sjeo za stol, Muki u tome omeo. Zapravo, mačić je, šapom hvatajući olovku, dječaka naveo na smijeh, a onda i na igru s bakinim klupkom vune. Ostatak večeri Doni je proveo raspetljavajući ono što je Muki u dvije minute zamrsio. A Muki? On ga je pozorno promatrao povremeno pružajući šapicu u pokušaju da pomogne.
+
+${/* ... continue with the rest of the story */}`}
+              </p>
+            </div>
             <Button className="w-full">
               <BookOpen className="mr-2 h-4 w-4" />
               Čitaj priču
