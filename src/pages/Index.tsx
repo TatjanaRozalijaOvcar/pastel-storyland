@@ -77,43 +77,48 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Story Looking for Illustrator */}
+      {/* Unpublished Stories */}
       <section className="page-section" style={{ "--section-delay": "2" } as React.CSSProperties}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">Priča traži svojeg čitača, urednika, ilustratora i izdavača</h2>
-          <Card className="book-card">
-            <h3 className="font-playfair text-2xl mb-4">Mukijeva uspavanka</h3>
-            <img 
-              src="/lovable-uploads/dc299811-ad5a-4eb5-871d-6158b88eca55.png"
-              alt="Ilustracija Mukija"
-              className="w-full h-auto max-h-96 object-contain mb-6 bg-gray-50 rounded-lg"
-            />
-            <Button className="w-full">
-              <BookOpen className="mr-2 h-4 w-4" />
-              Čitaj priču
-            </Button>
-          </Card>
-        </div>
-      </section>
-
-      {/* More Stories */}
-      <section className="page-section bg-white/50" style={{ "--section-delay": "3" } as React.CSSProperties}>
-        <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">Još priča</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <h2 className="section-title">Neobjavljene priče u potrazi za svojim ilustratorom, urednikom i izdavačem</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="book-card">
-              <h3 className="font-playfair text-xl mb-2">Vilinski grad</h3>
-              <p className="text-gray-600">Tekst priče dostupan je na upit putem maila.</p>
+              <h3 className="font-playfair text-xl mb-4">Mukijeva uspavanka</h3>
+              <p className="text-gray-600 mb-4">Tekst priče dostupan je na upit putem maila.</p>
+              <Button asChild variant="outline" className="w-full">
+                <a href="mailto:rozalija.ovcar@gmail.com">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Zatraži priču
+                </a>
+              </Button>
             </Card>
+
             <Card className="book-card">
-              <h3 className="font-playfair text-xl mb-2">Mijine priče</h3>
-              <p className="text-gray-600 mb-2">Tekstovi priča dostupni su na upit putem maila.</p>
-              <ul className="text-gray-600 list-disc list-inside ml-2">
+              <h3 className="font-playfair text-xl mb-4">Vilinski grad</h3>
+              <p className="text-gray-600 mb-4">Tekst priče dostupan je na upit putem maila.</p>
+              <Button asChild variant="outline" className="w-full">
+                <a href="mailto:rozalija.ovcar@gmail.com">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Zatraži priču
+                </a>
+              </Button>
+            </Card>
+
+            <Card className="book-card">
+              <h3 className="font-playfair text-xl mb-4">Mijine priče</h3>
+              <ul className="text-gray-600 list-disc list-inside ml-2 mb-4">
                 <li>Morska zvijezda</li>
                 <li>Galebovo pero</li>
                 <li>U starom gradu</li>
                 <li>Kamo vode racvjetane stepenice</li>
               </ul>
+              <p className="text-gray-600 mb-4">Tekstovi priča dostupni su na upit putem maila.</p>
+              <Button asChild variant="outline" className="w-full">
+                <a href="mailto:rozalija.ovcar@gmail.com">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Zatraži priče
+                </a>
+              </Button>
             </Card>
           </div>
         </div>
