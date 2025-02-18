@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -136,7 +135,8 @@ const Index = () => {
                 alt="San o šumi"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="font-playfair text-xl mb-4">Za najmlađe (0-4 godine)</h3>
+              <h3 className="font-playfair text-xl mb-2">Za najmlađe</h3>
+              <p className="text-gray-600 mb-4">Branka Holinsworth Nara:<br />San o šumi</p>
             </Card>
             <Card className="book-card">
               <img 
@@ -144,7 +144,8 @@ const Index = () => {
                 alt="Sjaj male krijesnice"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="font-playfair text-xl mb-4">Za predškolce i prvoškolce (5-8 godina)</h3>
+              <h3 className="font-playfair text-xl mb-2">Za predškolce i prvoškolce</h3>
+              <p className="text-gray-600 mb-4">Marija Đanović:<br />Sjaj male krijesnice</p>
             </Card>
             <Card className="book-card">
               <img 
@@ -152,7 +153,8 @@ const Index = () => {
                 alt="Knjiga recepata za putovanje kroz odrastanje"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="font-playfair text-xl mb-4">Za mlađe školarce (9-12 godina)</h3>
+              <h3 className="font-playfair text-xl mb-2">Za mlađe školarce</h3>
+              <p className="text-gray-600 mb-4">Danijela Pavlek:<br />Knjiga recepata za putovanje kroz odrastanje</p>
             </Card>
             <Card className="book-card">
               <img 
@@ -160,7 +162,8 @@ const Index = () => {
                 alt="Mjesec od papira"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="font-playfair text-xl mb-4">Za starije školarce (13-16 godina)</h3>
+              <h3 className="font-playfair text-xl mb-2">Za starije školarce</h3>
+              <p className="text-gray-600 mb-4">Milana Vuković Runjić:<br />Mjesec od papira</p>
             </Card>
           </div>
         </div>
