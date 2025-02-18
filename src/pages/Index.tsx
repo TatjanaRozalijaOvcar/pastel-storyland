@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -130,15 +131,35 @@ const Index = () => {
           <h2 className="section-title">Mjesečne preporuke za čitanje slikovnica i knjiga za djecu</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="book-card">
+              <img 
+                src="/lovable-uploads/a9376964-ea2e-440b-b94e-fef8bc7e5f16.png"
+                alt="San o šumi"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="font-playfair text-xl mb-4">Za najmlađe (0-4 godine)</h3>
             </Card>
             <Card className="book-card">
+              <img 
+                src="/lovable-uploads/b7bdec94-240e-40c3-ae88-1d8fc9aac0ad.png"
+                alt="Sjaj male krijesnice"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="font-playfair text-xl mb-4">Za predškolce i prvoškolce (5-8 godina)</h3>
             </Card>
             <Card className="book-card">
+              <img 
+                src="/lovable-uploads/8efb41f4-6785-496d-9fa2-228104df8865.png"
+                alt="Knjiga recepata za putovanje kroz odrastanje"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="font-playfair text-xl mb-4">Za mlađe školarce (9-12 godina)</h3>
             </Card>
             <Card className="book-card">
+              <img 
+                src="/lovable-uploads/878b0f95-f2bc-46bc-b5dc-b76bfe7b3117.png"
+                alt="Mjesec od papira"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="font-playfair text-xl mb-4">Za starije školarce (13-16 godina)</h3>
             </Card>
           </div>
