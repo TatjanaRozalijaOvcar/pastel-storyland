@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -46,7 +45,7 @@ const Index = () => {
             Tatjana Rozalija Ovčar
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl">
-            Stvarateljica dječjih priča i knjižničarka
+            Knjižničarka i spisateljica
           </p>
         </div>
       </section>
