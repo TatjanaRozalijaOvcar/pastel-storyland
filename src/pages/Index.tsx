@@ -146,7 +146,7 @@ const Index = () => {
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
               <h3 className="font-playfair text-xl mb-2">Za predškolce i prvoškolce</h3>
-              <p className="text-gray-600 mb-4">Branka Hillingsworth Nara:<br />San o šumi</p>
+              <p className="text-gray-600 mb-4">Branka Holingsworth Nara:<br />San o šumi</p>
             </Card>
             <Card className="book-card">
               <img 
