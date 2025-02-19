@@ -97,7 +97,7 @@ const Index = () => {
 
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-4">Vilinski grad</h3>
-              <p className="text-gray-600 mb-4">Priča o mliječnom zubiću, filcanom patuljku, zubić vili, vilinskom gradu i pomalo o svemiru.</p>
+              <p className="text-gray-600 mb-4">Priča o mliječnom zubiću, filcanom patuljku, zubić vili, vilinskom gradu i ponešto o svemiru.</p>
               <p className="text-gray-600 mb-4">Tekst priče dostupan je na upit putem maila.</p>
               <Button asChild variant="outline" className="w-full">
                 <a href="mailto:rozalija.ovcar@gmail.com">
