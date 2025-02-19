@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -84,6 +85,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-4">Mukijeva uspavanka</h3>
+              <p className="text-gray-600 mb-4">Priča o prijateljstvu i privrženosti, o iščekivanju snijega i pisanju pisma Sv. Nikoli, o prirodi s njezinim mijenama i pomalo o glazbi.</p>
               <p className="text-gray-600 mb-4">Tekst priče dostupan je na upit putem maila.</p>
               <Button asChild variant="outline" className="w-full">
                 <a href="mailto:rozalija.ovcar@gmail.com">
@@ -95,6 +97,7 @@ const Index = () => {
 
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-4">Vilinski grad</h3>
+              <p className="text-gray-600 mb-4">Priča o mliječnom zubiću, filcanom patuljku, zubić vili, vilinskom gradu i pomalo o svemiru.</p>
               <p className="text-gray-600 mb-4">Tekst priče dostupan je na upit putem maila.</p>
               <Button asChild variant="outline" className="w-full">
                 <a href="mailto:rozalija.ovcar@gmail.com">
