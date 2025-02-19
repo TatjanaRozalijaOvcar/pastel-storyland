@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Mail, Library } from "lucide-react";
@@ -131,21 +132,21 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="book-card">
               <img 
-                src="/lovable-uploads/a9376964-ea2e-440b-b94e-fef8bc7e5f16.png"
-                alt="San o šumi"
+                src="/lovable-uploads/f0ed0650-894e-46ef-a054-bd11c4b2a1b6.png"
+                alt="Lijepo sanjaj, mali zeko!"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
               <h3 className="font-playfair text-xl mb-2">Za najmlađe</h3>
-              <p className="text-gray-600 mb-4">Branka Holinsworth Nara:<br />San o šumi</p>
+              <p className="text-gray-600 mb-4">Jörg Mühle:<br />Lijepo sanjaj, mali zeko!</p>
             </Card>
             <Card className="book-card">
               <img 
-                src="/lovable-uploads/b7bdec94-240e-40c3-ae88-1d8fc9aac0ad.png"
-                alt="Sjaj male krijesnice"
+                src="/lovable-uploads/ea4b7896-fce6-4f3b-97b4-8dc8dfeb2372.png"
+                alt="San o šumi"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
               <h3 className="font-playfair text-xl mb-2">Za predškolce i prvoškolce</h3>
-              <p className="text-gray-600 mb-4">Marija Đanović:<br />Sjaj male krijesnice</p>
+              <p className="text-gray-600 mb-4">Branka Hillingsworth Nara:<br />San o šumi</p>
             </Card>
             <Card className="book-card">
               <img 
