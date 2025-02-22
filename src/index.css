@@ -34,7 +34,7 @@
 
 @layer components {
   .book-card {
-    @apply relative overflow-hidden rounded-2xl bg-white/80 p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-1;
+    @apply relative overflow-hidden rounded-2xl bg-white/80 p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:shadow-md;
   }
 
   .section-title {
