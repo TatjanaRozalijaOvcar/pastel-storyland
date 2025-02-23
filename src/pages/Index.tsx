@@ -4,21 +4,6 @@ import { BookOpen, Library, Mail } from "lucide-react";
 
 const books = [
   {
-    title: "Tinova pustolovina na tavanu",
-    url: "https://bit.ly/40Ycdd8",
-    coverImage: "/lovable-uploads/b0b0746a-9628-4f1f-894a-f742e10e8461.png",
-  },
-  {
-    title: "Hoki",
-    url: "https://bit.ly/3QiMbMJ",
-    coverImage: "/lovable-uploads/2cb8d80a-7fd4-4949-aa97-c16bfc2c5ea4.png",
-  },
-  {
-    title: "Kraljevske suze",
-    url: "https://bit.ly/40Z24Np",
-    coverImage: "/lovable-uploads/fdc205c3-8e2a-42e4-b0a2-64c370610b0a.png",
-  },
-  {
     title: "Korjenčica",
     url: "https://bit.ly/4jWrOCF",
     coverImage: "/lovable-uploads/2cb5a51b-b72e-4f04-86d6-21769a001749.png",
@@ -27,6 +12,21 @@ const books = [
     title: "Bjelobrkova limunada",
     url: "https://bit.ly/4gGgesv",
     coverImage: "/lovable-uploads/6f65bca8-6ca0-412b-bb1f-fa3563c1195b.png",
+  },
+  {
+    title: "Kraljevske suze",
+    url: "https://bit.ly/40Z24Np",
+    coverImage: "/lovable-uploads/fdc205c3-8e2a-42e4-b0a2-64c370610b0a.png",
+  },
+  {
+    title: "Hoki",
+    url: "https://bit.ly/3QiMbMJ",
+    coverImage: "/lovable-uploads/2cb8d80a-7fd4-4949-aa97-c16bfc2c5ea4.png",
+  },
+  {
+    title: "Tinova pustolovina na tavanu",
+    url: "https://bit.ly/40Ycdd8",
+    coverImage: "/lovable-uploads/b0b0746a-9628-4f1f-894a-f742e10e8461.png",
   },
 ];
 
