@@ -162,7 +162,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="book-card">
               <img
-                src="/lovable-uploads/f0ed0650-894e-46ef-a054-bd11c4b2a1b6.png"
+                src="/pastel-storyland/lovable-uploads/f0ed0650-894e-46ef-a054-bd11c4b2a1b6.png"
                 alt="Lijepo sanjaj, mali zeko!"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -175,7 +175,7 @@ const Index = () => {
             </Card>
             <Card className="book-card">
               <img
-                src="/lovable-uploads/ea4b7896-fce6-4f3b-97b4-8dc8dfeb2372.png"
+                src="/pastel-storyland/lovable-uploads/ea4b7896-fce6-4f3b-97b4-8dc8dfeb2372.png"
                 alt="San o šumi"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -190,7 +190,7 @@ const Index = () => {
             </Card>
             <Card className="book-card">
               <img
-                src="/lovable-uploads/zmajic-kokos.jpeg"
+                src="/pastel-storyland/lovable-uploads/zmajic-kokos.jpeg"
                 alt="Knjiga recepata za putovanje kroz odrastanje"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -203,7 +203,7 @@ const Index = () => {
             </Card>
             <Card className="book-card">
               <img
-                src="/lovable-uploads/878b0f95-f2bc-46bc-b5dc-b76bfe7b3117.png"
+                src="/pastel-storyland/lovable-uploads/878b0f95-f2bc-46bc-b5dc-b76bfe7b3117.png"
                 alt="Mjesec od papira"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -252,7 +252,7 @@ const Index = () => {
           <h2 className="section-title">O autorici</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <img
-              src="/lovable-uploads/7dd9ad16-5548-4961-8be0-d29a0b9737ed.png"
+              src="/pastel-storyland/lovable-uploads/7dd9ad16-5548-4961-8be0-d29a0b9737ed.png"
               alt="Rozalija's Stories"
               className="w-48 h-48 rounded-full border-4 border-gray"
             />
