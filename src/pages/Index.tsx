@@ -162,7 +162,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="book-card">
               <img
-                src="/lovable-uploads/f0ed0650-894e-46ef-a054-bd11c4b2a1b6.png"
+                src="./lovable-uploads/f0ed0650-894e-46ef-a054-bd11c4b2a1b6.png"
                 alt="Lijepo sanjaj, mali zeko!"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
