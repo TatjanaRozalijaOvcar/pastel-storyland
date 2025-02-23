@@ -77,12 +77,6 @@ const Index = () => {
                 )}
                 <h3 className="font-playfair text-xl mb-3">{book.title}</h3>
                 <p className="text-gray-600">{book.description} </p>
-                {/* <Button asChild variant="outline" className="w-full">
-                  <a href={book.url} target="_blank" rel="noopener noreferrer">
-                    <BookOpen className="mr-2 h-4 w-4" />
-                    Pogledaj u katalogu
-                  </a>
-                </Button> */}
               </Card>
             ))}
           </div>
@@ -123,20 +117,25 @@ const Index = () => {
             </Card>
 
             <Card className="book-card">
-              <h3 className="font-playfair text-xl mb-4">Vilinski grad</h3>
-              <p className="text-gray-600 mb-4">
-                Priča o mliječnom zubiću, filcanom patuljku, zubić vili,
-                vilinskom gradu i ponešto o svemiru.
-              </p>
-              <p className="text-gray-600 mb-4">
-                Tekst priče dostupan je na upit putem maila.
-              </p>
-              <Button asChild variant="outline" className="w-full">
-                <a href="mailto:rozalija.ovcar@gmail.com">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Zatraži priču
-                </a>
-              </Button>
+              <div className="flex flex-col justify-between h-full">
+                <div className="flex flex-col">
+                  <h3 className="font-playfair text-xl mb-4">Vilinski grad</h3>
+                  <p className="text-gray-600 mb-4">
+                    Priča o mliječnom zubiću, filcanom patuljku, zubić vili,
+                    vilinskom gradu i ponešto o svemiru.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    Tekst priče dostupan je na upit putem maila.
+                  </p>
+                </div>
+
+                <Button asChild variant="outline" className="w-full">
+                  <a href="mailto:rozalija.ovcar@gmail.com">
+                    <Mail className="mr-2 h-4 w-4" />
+                    Zatraži priču
+                  </a>
+                </Button>
+              </div>
             </Card>
 
             <Card className="book-card">
