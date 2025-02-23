@@ -167,7 +167,7 @@ const Index = () => {
       >
         <div className="max-w-6xl mx-auto">
           <h2 className="section-title">
-            Knjižnicarske preporuke za čitanje slikovnica i knjiga za djecu
+            Knjižničarske preporuke za čitanje slikovnica i knjiga za djecu
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="book-card">
