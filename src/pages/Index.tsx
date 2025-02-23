@@ -6,27 +6,27 @@ const books = [
   {
     title: "Korjenčica",
     url: "https://bit.ly/4jWrOCF",
-    coverImage: "/lovable-uploads/2cb5a51b-b72e-4f04-86d6-21769a001749.png",
+    coverImage: "./lovable-uploads/2cb5a51b-b72e-4f04-86d6-21769a001749.png",
   },
   {
     title: "Bjelobrkova limunada",
     url: "https://bit.ly/4gGgesv",
-    coverImage: "/lovable-uploads/6f65bca8-6ca0-412b-bb1f-fa3563c1195b.png",
+    coverImage: "./lovable-uploads/6f65bca8-6ca0-412b-bb1f-fa3563c1195b.png",
   },
   {
     title: "Kraljevske suze",
     url: "https://bit.ly/40Z24Np",
-    coverImage: "/lovable-uploads/fdc205c3-8e2a-42e4-b0a2-64c370610b0a.png",
+    coverImage: "./lovable-uploads/fdc205c3-8e2a-42e4-b0a2-64c370610b0a.png",
   },
   {
     title: "Hoki",
     url: "https://bit.ly/3QiMbMJ",
-    coverImage: "/lovable-uploads/2cb8d80a-7fd4-4949-aa97-c16bfc2c5ea4.png",
+    coverImage: "./lovable-uploads/2cb8d80a-7fd4-4949-aa97-c16bfc2c5ea4.png",
   },
   {
     title: "Tinova pustolovina na tavanu",
     url: "https://bit.ly/40Ycdd8",
-    coverImage: "/lovable-uploads/b0b0746a-9628-4f1f-894a-f742e10e8461.png",
+    coverImage: "./lovable-uploads/b0b0746a-9628-4f1f-894a-f742e10e8461.png",
   },
 ];
 
@@ -175,7 +175,7 @@ const Index = () => {
             </Card>
             <Card className="book-card">
               <img
-                src="/lovable-uploads/ea4b7896-fce6-4f3b-97b4-8dc8dfeb2372.png"
+                src="./lovable-uploads/ea4b7896-fce6-4f3b-97b4-8dc8dfeb2372.png"
                 alt="San o šumi"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -190,7 +190,7 @@ const Index = () => {
             </Card>
             <Card className="book-card">
               <img
-                src="/lovable-uploads/zmajic-kokos.jpeg"
+                src="./lovable-uploads/zmajic-kokos.jpeg"
                 alt="Knjiga recepata za putovanje kroz odrastanje"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -203,7 +203,7 @@ const Index = () => {
             </Card>
             <Card className="book-card">
               <img
-                src="/lovable-uploads/878b0f95-f2bc-46bc-b5dc-b76bfe7b3117.png"
+                src="./lovable-uploads/878b0f95-f2bc-46bc-b5dc-b76bfe7b3117.png"
                 alt="Mjesec od papira"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -252,7 +252,7 @@ const Index = () => {
           <h2 className="section-title">O autorici</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <img
-              src="/lovable-uploads/7dd9ad16-5548-4961-8be0-d29a0b9737ed.png"
+              src="./lovable-uploads/7dd9ad16-5548-4961-8be0-d29a0b9737ed.png"
               alt="Rozalija's Stories"
               className="w-48 h-48 rounded-full border-4 border-gray"
             />
