@@ -10,6 +10,10 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  build: {
+    outDir: "docs", // Change output directory to docs
+    emptyOutDir: true, // Clean the output directory before build
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
   ),
