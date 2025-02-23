@@ -1,32 +1,42 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { BookOpen, Library, Mail } from "lucide-react";
+import { Library, Mail } from "lucide-react";
 
 const books = [
   {
     title: "Korjenčica",
     url: "https://bit.ly/4jWrOCF",
     coverImage: "./lovable-uploads/2cb5a51b-b72e-4f04-86d6-21769a001749.png",
+    description:
+      "Priča o prijateljstvu dječaka, vjeverice, hrasta i svim malenim životinjama kojima je ovo stablo dom. Zatim o pohlepi, šumskim vilama i o prirodi s bogatstvom mijena koje nam donosi.",
   },
   {
     title: "Bjelobrkova limunada",
     url: "https://bit.ly/4gGgesv",
     coverImage: "./lovable-uploads/6f65bca8-6ca0-412b-bb1f-fa3563c1195b.png",
+    description:
+      "Priča o mačku Bjelobrku i Lini dobro je i naširoko poznata, zapravo svakidašnja priča o snovima, nadama, razočaranjima i iskušenjima, ovoga puta iz života jednog mačka. No priča je to i o prijateljskoj brižnosti, nježnosti, povjerenju, hrabrosti i mudrosti te otrkiću tajnog sastojka zbog kojeg i najkiselije stvari poprimaju okus meda.",
   },
   {
     title: "Kraljevske suze",
     url: "https://bit.ly/40Z24Np",
     coverImage: "./lovable-uploads/fdc205c3-8e2a-42e4-b0a2-64c370610b0a.png",
+    description:
+      "Priča o jednoj razmaženoj princezi i jednako razmaženom kraljeviću, zatim o ljekovitosti suza i čarima zaljubljivanja i sve to u carstvu vodenkonja. U priču je utkana i jedna likovna zagonetka, koju bi ljubitelji slikarstva mogli riješiti začas uz pomoć imena glavnih junaka i pripovjedača ove priče.",
   },
   {
     title: "Hoki",
     url: "https://bit.ly/3QiMbMJ",
     coverImage: "./lovable-uploads/2cb8d80a-7fd4-4949-aa97-c16bfc2c5ea4.png",
+    description:
+      "Priča o doživljajima i igrama nestašnog dabrića na putovanju prijateljima i rodbini. U priču su utkane nenametljive poruke o lijepom ponašanju i prirodi kao neiscrpnoj riznici nadahnuća u životu ljudi.",
   },
   {
     title: "Tinova pustolovina na tavanu",
     url: "https://bit.ly/40Ycdd8",
     coverImage: "./lovable-uploads/b0b0746a-9628-4f1f-894a-f742e10e8461.png",
+    description:
+      "Priča o nestašnom dječaku koji na tavanu otkriva carstvo igračaka i snagom mašte kreće na pustolovna putovanja. Priča je tiskana velikim slovima i prikladna je za početno čitanje.",
   },
 ];
 
@@ -66,12 +76,13 @@ const Index = () => {
                   />
                 )}
                 <h3 className="font-playfair text-xl mb-3">{book.title}</h3>
-                <Button asChild variant="outline" className="w-full">
+                <p className="text-gray-600">{book.description} </p>
+                {/* <Button asChild variant="outline" className="w-full">
                   <a href={book.url} target="_blank" rel="noopener noreferrer">
                     <BookOpen className="mr-2 h-4 w-4" />
                     Pogledaj u katalogu
                   </a>
-                </Button>
+                </Button> */}
               </Card>
             ))}
           </div>
