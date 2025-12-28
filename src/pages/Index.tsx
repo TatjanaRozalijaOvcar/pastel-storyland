@@ -116,27 +116,6 @@ const Index = () => {
               </Button>
             </Card>
 
-            <Card className="book-card">
-              <div className="flex flex-col justify-between h-full">
-                <div className="flex flex-col">
-                  <h3 className="font-playfair text-xl mb-4">Vilinski grad</h3>
-                  <p className="text-gray-600 mb-4">
-                    Priča o mliječnom zubiću, filcanom patuljku, zubić vili,
-                    vilinskom gradu i ponešto o svemiru.
-                  </p>
-                  <p className="text-gray-600 mb-4">
-                    Tekst priče dostupan je na upit putem maila.
-                  </p>
-                </div>
-
-                <Button asChild variant="outline" className="w-full">
-                  <a href="mailto:rozalija.ovcar@gmail.com">
-                    <Mail className="mr-2 h-4 w-4" />
-                    Zatraži priču
-                  </a>
-                </Button>
-              </div>
-            </Card>
 
             <Card className="book-card">
               <h3 className="font-playfair text-xl mb-4">Mijine priče</h3>
@@ -160,75 +139,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Book Recommendations */}
-      <section
-        className="page-section"
-        style={{ "--section-delay": "4" } as React.CSSProperties}
-      >
-        <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">
-            Knjižničarske preporuke za čitanje slikovnica i knjiga za djecu
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="book-card">
-              <img
-                src="./lovable-uploads/f0ed0650-894e-46ef-a054-bd11c4b2a1b6.png"
-                alt="Lijepo sanjaj, mali zeko!"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="font-playfair text-xl mb-2">Za najmlađe</h3>
-              <p className="text-gray-600 mb-4">
-                Jörg Mühle:
-                <br />
-                Lijepo sanjaj, mali zeko!
-              </p>
-            </Card>
-            <Card className="book-card">
-              <img
-                src="./lovable-uploads/ea4b7896-fce6-4f3b-97b4-8dc8dfeb2372.png"
-                alt="San o šumi"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="font-playfair text-xl mb-2">
-                Za predškolce i prvoškolce
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Branka Holingsworth Nara:
-                <br />
-                San o šumi
-              </p>
-            </Card>
-            <Card className="book-card">
-              <img
-                src="./lovable-uploads/zmajic-kokos.jpeg"
-                alt="Knjiga recepata za putovanje kroz odrastanje"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="font-playfair text-xl mb-2">Za mlađe školarce</h3>
-              <p className="text-gray-600 mb-4">
-                Ingo Siegner:
-                <br />
-                Zmajić Kokos i blago u džungli
-              </p>
-            </Card>
-            <Card className="book-card">
-              <img
-                src="./lovable-uploads/878b0f95-f2bc-46bc-b5dc-b76bfe7b3117.png"
-                alt="Mjesec od papira"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="font-playfair text-xl mb-2">
-                Za starije školarce
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Milana Vuković Runjić:
-                <br />
-                Mjesec od papira
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Contact */}
       <section
