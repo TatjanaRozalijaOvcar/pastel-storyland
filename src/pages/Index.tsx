@@ -83,63 +83,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Unpublished Stories */}
-      <section
-        className="page-section"
-        style={{ "--section-delay": "2" } as React.CSSProperties}
-      >
-        <div className="max-w-6xl mx-auto">
-          <h2 className="section-title">
-            Neobjavljene priče
-            <br />
-            <span className="text-gray-400 text-xl">
-              traže ilustratora, urednika i izdavača
-            </span>
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="book-card">
-              <h3 className="font-playfair text-xl mb-4">Mukijeva uspavanka</h3>
-              <p className="text-gray-600 mb-4">
-                Priča o prijateljstvu i privrženosti, o iščekivanju snijega i
-                pisanju pisma Sv. Nikoli, o prirodi s njezinim mijenama i pomalo
-                o glazbi.
-              </p>
-              <p className="text-gray-600 mb-4">
-                Tekst priče dostupan je na upit putem maila.
-              </p>
-              <Button asChild variant="outline" className="w-full">
-                <a href="mailto:rozalija.ovcar@gmail.com">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Zatraži priču
-                </a>
-              </Button>
-            </Card>
-
-
-            <Card className="book-card">
-              <h3 className="font-playfair text-xl mb-4">Mijine priče</h3>
-              <ul className="text-gray-600 list-disc list-inside ml-2 mb-4">
-                <li>Morska zvijezda</li>
-                <li>Galebovo pero</li>
-                <li>U starom gradu</li>
-                <li>Kamo vode racvjetane stepenice</li>
-              </ul>
-              <p className="text-gray-600 mb-4">
-                Tekstovi priča dostupni su na upit putem maila.
-              </p>
-              <Button asChild variant="outline" className="w-full">
-                <a href="mailto:rozalija.ovcar@gmail.com">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Zatraži priče
-                </a>
-              </Button>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-
       {/* Contact */}
       <section
         className="page-section bg-white/75 rounded-lg"
